@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import InfoPost from '@components/InfoPost';
+import Image from "next/image";
 
 export default function FeaturedPost() {
   return (
@@ -9,6 +10,7 @@ export default function FeaturedPost() {
           <Link href="/detail">
             <a>
               <img src="/featured-thumbnail.png" className="rounded-xl w-full mb-4 md:mb-0" />
+              {/* <Image src="/featured-thumbnail.png" className='rounded-xl w-full mb-4 md:mb-0' /> */}
             </a>
           </Link>
         </div>
